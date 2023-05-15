@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.cjs.json",
+    "compilerOptions": {
+      "noEmit": true,
+      "types": ["node", "mocha"]
+    },
+    "ts-node": {
+      "experimentalResolver": true
+    },
+    "include": ["src.old/**/*.ts", "test/**/*.ts", "types/lib.d.ts"]
+  }
+  

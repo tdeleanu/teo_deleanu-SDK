@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "./cjs",
+      "module": "commonjs",
+      "target": "es2017",
+      "checkJs": false,
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strict": true,
+      "strictFunctionTypes": true,
+      "types": [ "node" ],
+      "moduleResolution": "node",
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./src/lotr.esm.node.ts", "./src/lotr.esm.worker.ts"],
+  }
+  
