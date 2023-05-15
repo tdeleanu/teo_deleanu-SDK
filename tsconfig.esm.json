@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.cjs.json",
+    "compilerOptions": {
+      "outDir": "./esm",
+      "module": "es2022",
+    },
+    "exclude": ["./src/lotr.cjs.node.ts", "./src/lotr.cjs.worker.ts"],
+  }
+  
