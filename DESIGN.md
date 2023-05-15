@@ -112,4 +112,4 @@ When running `yarn run lint` or `yarn run fix` there are 21 warnings that should
 ✖ 21 problems (0 errors, 21 warnings)
 ```
 
-PS: I've cut all possible corners to get this to the maximum level I would bring an SDK library in a weekend hackaton.
+PS: In the pursuit of reaching the utmost degree of functionality, every conceivable shortcut was taken with regard to error management when developing this SDK library during a weekend homework.
